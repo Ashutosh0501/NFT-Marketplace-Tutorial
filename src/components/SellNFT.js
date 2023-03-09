@@ -9,7 +9,7 @@ export default function SellNFT () {
     const [fileURL, setFileURL] = useState(null);
     const ethers = require("ethers");
     const [message, updateMessage] = useState('');
-    const location = useLocation();
+    
 
     //This function uploads the NFT image to IPFS
     async function OnChangeFile(e) {
